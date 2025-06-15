@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>The Pick-Up Parlor</title>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+ 
+  
+
+    <link rel="stylesheet" href="styles.css">
+
+</head>
+
+<body>
+
+         <style>
+
+        body {
+            margin: 40px;
+        }
+
+        .wrapper {
+            display: grid;
+            grid-template-columns: 150px 150px 150px 150px 150px;
+            grid-gap: 15px;
+            background-color: #e4b4dd;
+            color: #000302;
+        }
+
+        .box {
+            background-color: rgb(168, 158, 209);
+            color: rgb(217, 181, 214);
+            border-radius: 10px;
+            padding: 50px;
+            font-size: 150%;
+        }
+        
+        .a {
+            grid-column: 1 / 5;
+            grid-row: 5;
+        }
+        .b {
+            grid-column: 3 ;
+            grid-row: 1 / 4 ;
+        }
+        .c {
+            grid-column: 1 ;
+            grid-row: 2 ;
+        }
+        .d{
+            grid-column: 2 ;
+            grid-row: 2 ;
+        }
+        
+    </style>
+
+    <nav class= "navbar navbar-expand-lg bg-body-tertiary navbar-light">
+        <div class="container-fluid">
+            <a class= "navbar-brand" href= "#" ></a>
+                <button class="navbar-toggler " type="button" 
+                data-bs-toggle="collapse" data-bs-target="#navbarNav" 
+                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+                 </button>
+         <div class= "collapse navbar-collapse" id="navbarNav">
+             <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="Project1.html">Home</a>
+            </li>
+                <li class="nav-item">
+                     <a class="nav-link" href="Pick_your_treat.html">Pick Your Treat</a>
+                 </li>
+         <li class="nav-item">
+            <a class="nav-link" href="Checkout.html">Check-Out</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="boxed-text">
+     <h1>Here is a list of our Treat options.</h1>
+    
+</div>
+   
+
+        <h2>Ice Cream Flavors:</h2>
+
+
+ <div class="wrapper">
+    <div class="Vanilla">Vanilla</div>
+    <div class="Chocolate">Chocolate</div>
+    <div class="Straberry">Strawberry</div>
+    <div class="Butter Pecan">Butter pecan</div>
+    <div class="Butterscotch"> Butterscotch</div>
+    <div class="Cotton Candy">Cotton Candy</div>
+    <div class="Peaches and Cream">Peaches and Cream</div>
+    <div class="Cookies n' Cream"> Cookies n' Cream</div>
+    <div class="Peanuntbutter">Peanuntbutter</div>
+    <div class="Mint Chocolate Chip">Mint Chocolate Chip</div>
+    <div class="Cookie dough"> Cookie Dough</div>
+    <div class="Mocha">Mocha</div>
+    <div class="Salted Caramel">Salted Caramel</div>
+    <div class="Bithday Cake">Birthday Cake</div>
+    <div class="rocky road">Rocky Road</div>
+    <div class="Pistachio">Pistachio</div>
+ </div>
+
+ <h2>Toppings:</h2>
+
+ <div class="wrapper">
+    <div class="Oreos">Oreos</div>
+    <div class="Nuts">Nuts</div>
+    <div class="Granola">Granola</div>
+    <div class="Gummy Worms">Gummy Worms</div>
+    <div class="Marshmellows"> Marshmellows</div>
+    <div class="Strawberries">Strawbwrries</div>
+    <div class="Hot Fudge">Hot Fudge</div>
+    <div class="Carmek Sauce"> Caramel Sauce</div>
+    <div class="Reese's Pieces">Reese's Pieces </div>
+    <div class="Whip Cream">Whip Cream</div>
+    <div class="Cookie crumbs"> Cookie Crumbs</div>
+    <div class="Fruitloops">Fruitloops</div>
+    <div class="Sprinkles">Sprinkles</div>
+    
+ </div>
+
+
+<div class="grid-container">
+        <img src="Vanilla.jpg" alt="Image 1">
+        <img src="Chocolate.jpg" alt="Image 2">
+        <img src="mint chocolate.jpg" alt="Image 3">
+        <img src="birthday cake.jpg" alt="image 4">
+        <img src="cookie dough.jpg" alt="image 5">
+        <img src="cotton candy.jpg" alt="image 5">
+
+    </div>
+
+  <div class="form-row">
+    <label>
+        Flavor:
+        <select name="Flavor">
+            <option value="Vanilla">Vanilla</option>
+            <option value="Chocolate">Chocolate </option>
+            <option value="Strawberry"> Strawberry</option>
+            <option value="Butter pecan">Butter Pecan</option>
+            <option value="Butterscotch">Butterscotch</option>
+            <option value="Cotton Candy">Cotton Candy</option>
+            <option value="Peaches and Cream">Peaches and Cream</option>
+            <option value="Cookies n' Cream">Cookies n' Cream</option>
+            <option value="Peanuntbutter">Peanuntbutter</option>
+            <option value="Mint Chocolate Chip">Mint Chocolate Chip</option>
+            <option value="Cookie Dough">Cookie Dough</option>
+            <option value="Mocha">Mocha</option>
+            <option value="Salted Caramel">Salted Caramel</option>
+            <option value="Birthday Cake">Birthday Cake</option>
+            <option value="Rocky Road">Rocky Road</option>
+            <option value="Pistachio">Pistachio</option>
+  
+        </select>  
+    </label>
+  </div>
+    
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>  
+
+</body>
+</html>
